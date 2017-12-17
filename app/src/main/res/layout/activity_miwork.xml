@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_miwork"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.anshultech.miwork.miwork"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Numbers"
+        android:textSize="15dp"
+        android:background="#FD8E09"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/textviewnumbers"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Family Members"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="#379237"
+        android:id="@+id/textviewfamilymembers"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Colors"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/textviewcolors"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="Phrases"
+        android:textSize="15dp"
+        android:background="#16AFCA"
+        android:id="@+id/textviewphrases"
+        />
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="88dp"
+    android:id="@+id/list_itemlayour"
+    android:background="#FFF7DA"
+    >
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:id="@+id/listviewimage"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="88dp"
+        android:id="@+id/text_container"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginLeft="16dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="88dp"
+            android:id="@+id/text_container1"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:weightSum="2"
+            android:layout_weight="1"
+            >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Lutti"
+        android:id="@+id/listitemmiwoktextview"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:text="one"
+        android:id="@+id/listitemenglishtextview"
+        android:layout_weight="1"
+        android:gravity="top"
+        />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_play_arrow_white_24dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
